@@ -5,8 +5,6 @@ import pickle
 import pandas as pd
 import matplotlib.pyplot as plt 
 import numpy as np
-from pyrsistent import b
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import f1_score, mean_absolute_error, mean_squared_error,r2_score,accuracy_score
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
